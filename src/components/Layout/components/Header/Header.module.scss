@@ -3,6 +3,7 @@
     --search-height: 46px;
     --search-top-spacer: 9px;
     --search-button-width: 52px;
+    --white: #fff;
 
     width: 100%;
     height: var(--default-layout-header-height, 60);
@@ -24,9 +25,20 @@
     align-items: center;
 }
 
+.search,
+.search-result {
+    width: 361px;
+}
+
+.search-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    color: rgba(22, 24, 35, 0.5);
+}
+
 .search {
     position: relative;
-    width: 361px;
     height: 46px;
     padding-left: 16px;
     background: rgba(22, 24, 35, 0.06);
