@@ -6,9 +6,27 @@
 
 .container {
     width: var(--default-layout-width);
+    padding: 0px var(--default-layout-horizontal-spacer);
     display: flex;
 }
 
 .content {
     flex: 1;
+}
+
+body {
+    .tippy-box {
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+        letter-spacing: 0.03px;
+        background-color: rgba(84, 84, 84, 0.92);
+    }
+    .tippy-content {
+        padding: 8px 9px;
+    }
+    .tippy-arrow {
+        background-color: rgba(84, 84, 84, 0.92);
+    }
 }
