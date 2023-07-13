@@ -47,7 +47,7 @@ const MENU_ITEMS = [
     },
 ];
 
-const currentUser = true;
+const currentUser = false;
 
 const userMenu = [
     {
@@ -119,7 +119,7 @@ function Header() {
                             <Button text leftIcon={<FontAwesomeIcon icon={faPlus} />}>
                                 Upload
                             </Button>
-                            <Button primary>Log in</Button>
+                            <Button text>Log in</Button>
                         </>
                     )}
 
