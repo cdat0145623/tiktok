@@ -47,7 +47,7 @@ const MENU_ITEMS = [
     },
 ];
 
-const currentUser = false;
+const currentUser = true;
 
 const userMenu = [
     {
