@@ -119,7 +119,7 @@ function Header() {
                             <Button text leftIcon={<FontAwesomeIcon icon={faPlus} />}>
                                 Upload
                             </Button>
-                            <Button text>Log in</Button>
+                            <Button primary>Log in</Button>
                         </>
                     )}
 
